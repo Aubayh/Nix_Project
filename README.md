@@ -59,8 +59,7 @@ This field is used in the SOQL after WHERE Clause. You can use this field to fil
 
 #### 7. Limit
 This field is used in the SOQL after LIMIT Clause. This will limit the maximum records showing in the related list. The remaining records can be seen by clicking "View More"
-##### Example 1:
-![image](https://user-images.githubusercontent.com/105597767/168588524-0df5a9ee-3c20-4c4a-a6b2-1c4cf093d2a9.png)
+##### Example 1
 ![image](https://user-images.githubusercontent.com/105597767/168588394-a63e914f-c044-4742-a4a8-577cd6fd9674.png)
 
 
@@ -77,6 +76,6 @@ Choose from Tile or List.
 
 
 ##### Example 2: Tile
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/105597767/168588524-0df5a9ee-3c20-4c4a-a6b2-1c4cf093d2a9.png)
 
 ..end/
