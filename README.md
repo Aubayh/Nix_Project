@@ -1,16 +1,17 @@
-CI Status: [![CircleCI](https://circleci.com/gh/CharlesHGong/lightningRelatedListWithFilter.svg?style=svg)](https://circleci.com/gh/CharlesHGong/lightningRelatedListWithFilter)
+REquirements : |
+Create 3 objects: object A , Object B, Object C,
 
-## Please 'Star' this repo if you like it!
+- C with lookup field to B
 
-Huge Kudos to [@RekHidalgo](https://github.com/RekHidalgo) for being an initial colaborator and maintained this component for many release :tada:
+- B with lookup field to A
 
-If you like this component, you could buy us a coffee:
+- Create record page for object A and add a lightning component to show a custom related list where it shows a table with all records of object B and C without any distinction
+- Needs to be scalable for a huge number of records and don't forget limits. You can use pagination or infinite scrolling, as you prefer.
+- To deliver: package ready to be deployed with all metadata that you created
 
-<a href="https://www.buymeacoffee.com/CharlesGong" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a> or ![Alt text](ReadMeImg/paypalQR.png?raw=true "Donation")
+# we will use Aura cmp with Lightning Related List Filter
 
-# Lightning Related List With Filter
-
-This repository is a lightning component which mimimic the look and feel with the out of box related list but give you more control on:
+This solution is a lightning component which mimimic the look and feel with the out of box related list but give you more control on:
 
 1. You can apply filter of your choice on the related list.
 2. You are not limited to child object but any grand-child object as long as it can reference back to the parent.
@@ -19,6 +20,8 @@ This repository is a lightning component which mimimic the look and feel with th
 5. You are not limited to 6 records but have more control on how many records you want to show,
 6. You don't have to show the ugly bar code for you child object.
 7. You can choose from display types of List or Tile.
+
+we can now add Related list on Object A record page that will contain a table of related object B and object C.
 
 
 #### Currently the related list supports the following field type:
