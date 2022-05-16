@@ -80,65 +80,48 @@ cd lightningRelatedListWithFilter/package
 ### Key Attributes
 #### 1. Object
 This field is used in the SOQL after FROM Clause. This is the API name of your related object, be careful with the letter case, it matters when you try to create a related record. It supports custom objects as well.
-##### Example 1: Contact
-![Alt text](ReadMeImg/object1.png?raw=true "Title")
-##### Example 2: Bank_Account__c
-![Alt text](ReadMeImg/object2.png?raw=true "Title")
+##### Example 1: Object B
+![image](https://user-images.githubusercontent.com/105597767/168587897-2348020f-55e3-44ca-aa16-df0a9fada641.png)
+
 
 #### 2. Title
 This the title of your realted list.
-![Alt text](ReadMeImg/title1.png?raw=true "Title")
+![image](https://user-images.githubusercontent.com/105597767/168588000-e0f5fafa-ec75-4ba8-9729-7fc57965355a.png)
+
 
 #### 3. Fields
 This field is used in the SOQL after SELECT Clause. Specify all the fields API name that you want to display for the related object. Seperate each field with a semi-column.
-##### Example 1: Contact
-![Alt text](ReadMeImg/fieldName1.png?raw=true "Title")
+##### Example 1: Name
+![image](https://user-images.githubusercontent.com/105597767/168588137-8af833bf-aa11-4c46-9535-68ac84795da4.png)
 
-#### 4. Sort Order
-This field is used in the SOQL after ORDER BY Clause. If you want to sord your related list, specify the 'Order By' field and the sort order (desc or asc). Otherwise leave blank.
-##### Example 1: birthdate asc
-![Alt text](ReadMeImg/sortorder1.png?raw=true "Title")
-##### Example 2: birthdate desc
-![Alt text](ReadMeImg/sortorder2.png?raw=true "Title")
 
 #### 5. Conditions
-This field is used in the SOQL after WHERE Clause. You can use this field to filter your related list. Use the variable "recordId" to specify the relationship column (e.g. AccountId =: recordId) or otherwise the component will choose from all record.
+This field is used in the SOQL after WHERE Clause. You can use this field to filter your related list. Use the variable "recordId" to specify the relationship column (e.g. Object_A_Field__c= : recordId) or otherwise the component will choose from all record.
 ##### Example 1:
-![Alt text](ReadMeImg/conditions1.png?raw=true "Title")
+![image](https://user-images.githubusercontent.com/105597767/168588306-da7679af-4f39-416a-8f30-b0b427b26d7c.png)
+![image](https://user-images.githubusercontent.com/105597767/168588394-a63e914f-c044-4742-a4a8-577cd6fd9674.png)
 
-#### 6. Relationship
-This field is used to prepopulate the relationship field if the user clicks "New" button.
-![Alt text](ReadMeImg/relationship1.png?raw=true "Title")
+
 
 #### 7. Limit
 This field is used in the SOQL after LIMIT Clause. This will limit the maximum records showing in the related list. The remaining records can be seen by clicking "View More"
 ##### Example 1:
-![Alt text](ReadMeImg/limit1.png?raw=true "Title")
+![image](https://user-images.githubusercontent.com/105597767/168588524-0df5a9ee-3c20-4c4a-a6b2-1c4cf093d2a9.png)
 
 
 #### 8. ActionList
 Choose from create,view and edit to show in the action list of the related record. User semi-column to seperate each action.
 ##### a. Create
-![Alt text](ReadMeImg/relationship1.png?raw=true "Title")
 ##### b. Edit
 ##### c. View
-![Alt text](ReadMeImg/actionlist1.png?raw=true "Title")
-
-#### 9. IconName
-If you want to override the icon, choose the icon from https://www.lightningdesignsystem.com/icons/ (e.g. standard:Contact). Otherwise leave it blank, the component will choose the default icon from the Tab setting for this related object.
-##### Example 1:
-![Alt text](ReadMeImg/iconName1.png?raw=true "Title")
 
 #### 10. DisplayFormat
 Choose from Tile or List.
 ##### Example 1: List
-![Alt text](ReadMeImg/displayFormat1.png?raw=true "Title")
+![image](https://user-images.githubusercontent.com/105597767/168588561-53bcc4a5-c0f8-4ad2-810e-0ad834bfad60.png)
+
+
 ##### Example 2: Tile
-![Alt text](ReadMeImg/displayFormat2.png?raw=true "Title")
+![Uploading image.png…]()
 
-
-## Reporting Issues ###
-
-If you find any issues with this demo that you can't fix, feel free to report them in the [issues](https://github.com/libra34567/lightningRelatedListWithFilter/issues) section of this repository.
-
-If you have any suggestions for improvement or question of how to use this component, feel free to reach out to the collaborators at rekhidalgo@gmail.com | hanning.gong@icloud.com
+..end/
