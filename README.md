@@ -55,14 +55,13 @@ This field is used in the SOQL after SELECT Clause. Specify all the fields API n
 This field is used in the SOQL after WHERE Clause. You can use this field to filter your related list. Use the variable "recordId" to specify the relationship column (e.g. Object_A_Field__c= : recordId) or otherwise the component will choose from all record.
 ##### Example 1:
 ![image](https://user-images.githubusercontent.com/105597767/168588306-da7679af-4f39-416a-8f30-b0b427b26d7c.png)
-![image](https://user-images.githubusercontent.com/105597767/168588394-a63e914f-c044-4742-a4a8-577cd6fd9674.png)
-
 
 
 #### 7. Limit
 This field is used in the SOQL after LIMIT Clause. This will limit the maximum records showing in the related list. The remaining records can be seen by clicking "View More"
 ##### Example 1:
 ![image](https://user-images.githubusercontent.com/105597767/168588524-0df5a9ee-3c20-4c4a-a6b2-1c4cf093d2a9.png)
+![image](https://user-images.githubusercontent.com/105597767/168588394-a63e914f-c044-4742-a4a8-577cd6fd9674.png)
 
 
 #### 8. ActionList
