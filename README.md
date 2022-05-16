@@ -24,52 +24,8 @@ This solution is a lightning component which mimimic the look and feel with the 
 we can now add Related list on Object A record page that will contain a table of related object B and object C.
 
 
-#### Currently the related list supports the following field type:
-1. Text
-2. Number
-3. Percent
-4. Date
-5. Datetime
-6. Checkbox
-7. Picklist
-8. Muti-picklist
-9. Lookup
-10. Master-Detail
-11. Email
-12. Phone
-13. URL
 
-## Getting Started
-### If you are using sfdx
-1. Clone this repo
-```
-git clone https://github.com/libra34567/lightningRelatedListWithFilter.git
-```
-2. Direct to the root
-```
-cd lightningRelatedListWithFilter/
-```
-3. Deploy to your desired org
-```
-sfdx force:source:deploy -p sf_relatedList -u $YOURORGNAME
-```
-
-### If you are using meta-data
-1. Clone this repo
-```
-git clone https://github.com/libra34567/lightningRelatedListWithFilter.git
-```
-2. Direct to the root/package
-```
-cd lightningRelatedListWithFilter/package
-```
-3. Ant deploy the package
-```
- 
-```
-
-
-## How to use the related list on your lightning record page
+## How to use the related list Cmp on lightning record page
 1. Navigate to the parent object record page and click edit page
 2. Drag the RelatedListComponent to the desired space
 3. Type in the relevant attributes
