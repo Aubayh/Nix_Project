@@ -18,7 +18,6 @@ This solution is a lightning component which mimimic the look and feel with the 
 3. You can specify the title of the related list that is meaningful to you.
 4. You are not limited to only four fields to show.
 5. You are not limited to 6 records but have more control on how many records you want to show,
-6. You don't have to show the ugly bar code for you child object.
 7. You can choose from display types of List or Tile.
 
 we can now add Related list on Object A record page that will contain a table of related object B and object C.
