@@ -29,8 +29,7 @@ we can now add Related list on Object A record page that will contain a table of
 2. Drag the RelatedListComponent to the desired space
 3. Type in the relevant attributes
 4. The related list will show
-![Alt text](ReadMeImg/editPage.png?raw=true "Title")
-![Alt text](ReadMeImg/dragComponent.png?raw=true "Title")
+
 
 ### Key Attributes
 #### 1. Object
